@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite">
+
+
+    <test name="Sub Cal Test">
+        <classes>
+            <class name="SubCalTest"/>
+        </classes>
+    </test>
+
+    <test name="Sum Cal Test">
+        <classes>
+            <class name="SumCalTest"/>
+        </classes>
+    </test>
+</suite>
